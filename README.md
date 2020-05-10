@@ -21,7 +21,7 @@ Both are pointing towards each-other between parallel nodes inorder to keep in s
 For further details of the considerations taken, runtime analysis and so forth, see: [detailed documentation :bookmark_tabs:](DetaildDocumentation/%D7%9E%D7%9E%D7%9F%2018%20-%202016%D7%90.pdf)
 
 ## Naming Convention 
-The following two conventions are used in this project:
+The following two conventions are used throughout in this project:
 * **OS**-Tree: **O**rder-**S**tatistic Tree (which is an extended red-black balanced binary search tree). 
 * **RB**-Tree: **R**ed-**B**lack Tree balanced binary search tree.
 
@@ -41,7 +41,7 @@ The following two conventions are used in this project:
     - [File2 *Input*](IOExamples/Example2/maman_example.txt)
     - [File2 *Output*](IOExamples/Example2/maman_example.txt_Sun%20Mar%2013_output.txt) 
     
-## Schematic Diagram Of The Trees Used in This Project 
+## Schematic Diagram Of The Trees Used in This Project & The Way They Bond to Each Other 
 ![Schematic Diagram of the two red-black trees binding](DetaildDocumentation/tree-binding-schematic-diagram.png)
 
 ## A Standard Red-Black Tree
