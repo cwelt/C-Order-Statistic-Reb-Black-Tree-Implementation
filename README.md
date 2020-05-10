@@ -41,9 +41,9 @@ The following two conventions are used in this project:
     - [File2 *Input*](IOExamples/Example2/maman_example.txt)
     - [File2 *Output*](IOExamples/Example2/maman_example.txt_Sun%20Mar%2013_output.txt) 
     
-## Schematic Diagram Of The Data-Structures
+## Schematic Diagram Of The Trees Used in This Project 
 ![Schematic Diagram of the two red-black trees binding](DetaildDocumentation/tree-binding-schematic-diagram.png)
 
-## Standard Red-Black Tree
+## A Standard Red-Black Tree
 A standard red-black binary search tree:
 ![Red-Black Standard Tree](https://walkccc.github.io/CLRS/img/13.1-1-2.png)
