@@ -1,7 +1,7 @@
 # Bank-account-management-with-OS-RB-TREE
 
 ## Description
-The goal of this project is managing a dynamic set of in-memory bank accounts :moneybag: proficiently as possible
+The goal of this C project is managing a dynamic set of in-memory bank accounts :moneybag: proficiently as possible
 (by run-time means, as a factor of set size, i.e., the amount of bank accounts in the set).
 Managment of the dynamic set includes supporting the basic dictionary CRUD operations and additional custom queries, 
 such as finding maximum account in the set & finding all accounts which contain a negative balance. 
@@ -21,8 +21,9 @@ Both are pointing towards each-other between parallel nodes inorder to keep in s
 For further details of the considerations taken, runtime analysis and so forth, see: [detailed documentation :bookmark_tabs:](DetaildDocumentation/%D7%9E%D7%9E%D7%9F%2018%20-%202016%D7%90.pdf)
 
 ## Naming Convention 
-* OS-Tree: **O**rder-**S**tatistic Tree (which is an extended red-black balanced binary search tree). 
-* RB-Tree: **R**ed-**B**lack Tree balanced binary search tree.
+The following two conventions are used in this project:
+* **OS**-Tree: **O**rder-**S**tatistic Tree (which is an extended red-black balanced binary search tree). 
+* **RB**-Tree: **R**ed-**B**lack Tree balanced binary search tree.
 
 ## Modules 
 | Module         | Files                                                | Content & Responsibility                                                                                                       |
@@ -41,7 +42,8 @@ For further details of the considerations taken, runtime analysis and so forth, 
     - [File2 *Output*](IOExamples/Example2/maman_example.txt_Sun%20Mar%2013_output.txt) 
     
 ## Schematic Diagram Of The Data-Structures
-![Schematic Diagram of the two red-black trees binding](DetaildDocmentation/tree-binding-schematic-diagram.png)
+![Schematic Diagram of the two red-black trees binding](DetaildDocumentation/tree-binding-schematic-diagram.png)
 
 ## Standard Red-Black Tree
-![tree](https://walkccc.github.io/CLRS/img/13.1-1-2.png)
+A standard red-black binary search tree:
+![Red-Black Standard Tree](https://walkccc.github.io/CLRS/img/13.1-1-2.png)
