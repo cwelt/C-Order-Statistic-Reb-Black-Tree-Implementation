@@ -1,0 +1,182 @@
+=========================
+Detailed log report for file ' chanan_example.txt '
+=========================
+
+
+line 1  input:  + David Ben-Gurion 000000001 7700001 888.88
+	output:	Customer was successfully added - 
+	Name: David Ben-Gurion, number: 7700001, ID: 000000001, balance: 888.88
+
+
+line 2  input:  + Frederic Chopin 201203221 7700002 1000.12
+	output:	Customer was successfully added - 
+	Name: Frederic Chopin, number: 7700002, ID: 201203221, balance: 1000.12
+
+
+line 3  input:  + Franz Schubert 301005452 7700003 9999.99
+	output:	Customer was successfully added - 
+	Name: Franz Schubert, number: 7700003, ID: 301005452, balance: 9999.99
+
+
+line 4  input:  + Claude Debussy 302500112 7700004 -3500.53
+	output:	Customer was successfully added - 
+	Name: Claude Debussy, number: 7700004, ID: 302500112, balance: -3500.53
+
+
+line 5  input:  + John Coltrane 013011521 7700005 400000.91
+	output:	Customer was successfully added - 
+	Name: John Coltrane, number: 7700005, ID: 013011521, balance: 400000.91
+
+
+line 6  input:  + Louis Armstrong 201203065 7700006 -9865.32
+	output:	Customer was successfully added - 
+	Name: Louis Armstrong, number: 7700006, ID: 201203065, balance: -9865.32
+
+
+line 7  input:  + James Bond 007007007 7700007 -7007.007
+	output:	Customer was successfully added - 
+	Name: James Bond, number: 7700007, ID: 007007007, balance: -7007.01
+
+
+line 8  input:  + Bill Gates 011502796 7700008 1000000000.96
+	output:	Customer was successfully added - 
+	Name: Bill Gates, number: 7700008, ID: 011502796, balance: 1000000000.96
+
+
+line 9  input:  + Steve Wozniak 014530998 7700009 -8056.65
+	output:	Customer was successfully added - 
+	Name: Steve Wozniak, number: 7700009, ID: 014530998, balance: -8056.65
+
+
+line 10 input:  + Sergey Rachmaninoff 01554613 7700010 -300.5
+	output:	Customer was successfully added - 
+	Name: Sergey Rachmaninoff, number: 7700010, ID: 01554613, balance: -300.50
+
+
+line 11 input:  ? MAX
+	output:	Customer with highest balance is -
+	Name: Bill Gates, Customer num: 7700008, ID: 011502796, Balance: 1000000000.96 ;
+
+
+line 12 input:  John Coltrane  7700005 -400000.91
+	output:	Balance updated- Old balance: 400000.91, New balance: 0.00
+
+
+line 13 input:  - 7700005 
+	output:	Customer 7700005 successfully deleted.
+
+
+line 14 input:  Bill Gates 7700008 1000000000
+	output:	Balance updated- Old balance: 1000000000.96, New balance: 2000000000.96
+
+
+line 15 input:  ? MAX
+	output:	Customer with highest balance is -
+	Name: Biln Gaterane, Customer num: 7700008, ID: 011502791, Balance: 2000000000.96 ;
+
+
+line 16 input:  - 7700008 
+	output:	error: customer has uncleared balance of 2000000000.96
+
+
+line 17 input:  ? MAX
+	output:	Customer with highest balance is -
+	Name: Biln Gaterane, Customer num: 7700008, ID: 011502791, Balance: 2000000000.96 ;
+
+
+line 18 input:  ? MINUS
+	output:	All customers with a negative balance:
+	Name: Louis Armstrong, Customer num: 7700006, ID: 201203065, Balance: -9865.32 ;
+	Name: Steve Wozniak, Customer num: 7700009, ID: 014530998, Balance: -8056.65 ;
+	Name: James Bond, Customer num: 7700007, ID: 007007007, Balance: -7007.01 ;
+	Name: Claude Debussy, Customer num: 7700004, ID: 302500112, Balance: -3500.53 ;
+	Name: Sergey Rachmaninoff, Customer num: 7700010, ID: 01554613, Balance: -300.50 ;
+
+
+line 19 input:  Louis Armstrong 7700006 9865.33
+	output:	Balance updated- Old balance: -9865.32, New balance: 0.01
+
+
+line 20 input:  ? MINUS
+	output:	All customers with a negative balance:
+	Name: Steve Wozniak, Customer num: 7700009, ID: 014530998, Balance: -8056.65 ;
+	Name: James Bond, Customer num: 7700007, ID: 007007007, Balance: -7007.01 ;
+	Name: Claude Debussy, Customer num: 7700004, ID: 302500112, Balance: -3500.53 ;
+	Name: Sergey Rachmaninoff, Customer num: 7700010, ID: 01554613, Balance: -300.50 ;
+
+
+line 21 input:  Sergey Rachmaninoff 7700010 300.5
+	output:	Balance updated- Old balance: -300.50, New balance: 0.00
+
+
+line 22 input:  ? MINUS  
+	output:	All customers with a negative balance:
+	Name: Steve Wozniak, Customer num: 7700009, ID: 014530998, Balance: -8056.65 ;
+	Name: James Bond, Customer num: 7700007, ID: 007007007, Balance: -7007.01 ;
+	Name: Claude Debussy, Customer num: 7700004, ID: 302500112, Balance: -3500.53 ;
+
+
+line 23 input:  + Donald Trump 000666000 7700011 999999999999.99
+	output:	Customer was successfully added - 
+	Name: Donald Trump, number: 7700011, ID: 000666000, balance: 999999999999.99
+
+
+line 24 input:  ? MAX
+	output:	Customer with highest balance is -
+	Name: Donald Trump, Customer num: 7700011, ID: 000666000, Balance: 999999999999.99 ;
+
+
+line 25 input:  ? 7700011 
+	output:	Current Balance: 999999999999.99
+
+
+line 26 input:  - 7700011 
+	output:	error: customer has uncleared balance of 999999999999.99
+
+
+line 27 input:  ? 7700011 
+	output:	Current Balance: 999999999999.99
+
+
+line 28 input:  Donald Trump 7700011 -999999999999.99
+	output:	Balance updated- Old balance: 999999995904.00, New balance: 0.00
+
+
+line 29 input:  ? MAX
+	output:	Customer with highest balance is -
+	Name: Biln Gaterane, Customer num: 7700008, ID: 011502791, Balance: 2000000000.96 ;
+
+
+line 30 input:  + Jerry Seinfield 000206988 7700001 0
+	output:	error: customer already exists!
+
+
+line 31 input:  + Jerry Seinfield 000206988 7700012 0
+	output:	Customer was successfully added - 
+	Name: Jerry Seinfield, number: 7700012, ID: 000206988, balance: 0.00
+
+
+line 32 input:  ? 7700012 
+	output:	Current Balance: 0.00
+
+
+line 33 input:  ? MINUS
+	output:	All customers with a negative balance:
+	Name: Steve Wozniak, Customer num: 7700009, ID: 014530998, Balance: -8056.65 ;
+	Name: James Bond, Customer num: 7700007, ID: 007007007, Balance: -7007.01 ;
+	Name: Claude Debussy, Customer num: 7700004, ID: 302500112, Balance: -3500.53 ;
+
+==========================================================================
+Rank|| First name || Last name	      || Id num         || Customer	      || Balance          	|| Color|
+==========================================================================
+1         Steve                Wozniak                          014530998       007700009                      -8056.65                          B
+2         James                Bond                             007007007       007700007                      -7007.01                          R
+3         Claude               Debussy                          302500112       007700004                      -3500.53                          R
+4         Sergey               Rachmaninoff                     01554613        007700010                      +0.00                             R
+5         Donald               Trump                            000666000       007700011                      +0.00                             B
+6         Jerry                Seinfield                        000206988       007700012                      +0.00                             R
+7         Louis                Armstrong                        201203065       007700006                      +0.01                             B
+8         Davi                 Ben-Gurio                        000000001       007700001                      +888.88                           B
+9         Frederic             Chopin                           201203221       007700002                      +1000.12                          R
+10        Franz                Schubert                         301005452       007700003                      +9999.99                          R
+11        Biln                 Gaterane                         011502791       007700008                      +2000000000.96                    B

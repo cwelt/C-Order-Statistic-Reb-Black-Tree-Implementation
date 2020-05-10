@@ -1,0 +1,52 @@
+=========================
+Detailed log report for file ' maman_example.txt '
+=========================
+
+
+line 1  input:  YOSI LEVI 3454621 400
+	output:	error: requested customer 3454621 not found
+
+
+line 2  input:  + JOHN DOE 015546134 3462211 300
+	output:	Customer was successfully added - 
+	Name: JOHN DOE, number: 3462211, ID: 015546134, balance: 300.00
+
+
+line 3  input:  - 3454621
+	output:	error: requested customer 3454621 not found
+
+
+line 4  input:  ? 3462211
+	output:	Current Balance: 300.00
+
+
+line 5  input:  ? MAX
+	output:	Customer with highest balance is -
+	Name: JOHN DOE, Customer num: 3462211, ID: 015546134, Balance: 300.00 ;
+
+
+line 6  input:  ? MINUS
+	output:	No results: all customers have a balance >= to 0.00
+
+
+line 7  input:  + YOSI LEVI 015546134 3454621 -400
+	output:	Customer was successfully added - 
+	Name: YOSI LEVI, number: 3454621, ID: 015546134, balance: -400.00
+
+
+line 8  input:  ? 3454621 
+	output:	Current Balance: -400.00
+
+
+line 9  input:  - 3454621 
+	output:	error: customer has uncleared balance of -400.00
+
+
+line 10 input:  ? 3454621 
+	output:	Current Balance: -400.00
+
+==========================================================================
+Rank|| First name || Last name	      || Id num         || Customer	      || Balance          	|| Color|
+==========================================================================
+1         YOSI                 LEVI                             015546134       003454621                      -400.00                           R
+2         JOHN                 DOE                              015546134       003462211                      +300.00                           B
